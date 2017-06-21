@@ -8,6 +8,13 @@ import org.springframework.stereotype.Service;
 @Service
 public class InsertionSortServiceImp implements SortService {
 
+    private final String type = "InsertionSort";
+
+    @Override
+    public boolean canDo(String type) {
+        return type.equalsIgnoreCase(this.type);
+    }
+
     @Override
     public int[] sortNumbers(int[] unsortedList) {
         for (int i = 1; i < unsortedList.length; i++){

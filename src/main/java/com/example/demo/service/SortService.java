@@ -6,6 +6,8 @@ package com.example.demo.service;
  */
 public interface SortService {
 
+    boolean canDo(String type);
+
     int[] sortNumbers(int[] unsortedList);
 
 }
