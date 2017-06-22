@@ -1,8 +1,8 @@
-package com.example.demo.controller;
+package com.example.demo.controller.sort;
 
-import com.example.demo.domain.SortObject;
-import com.example.demo.service.SortService;
-import com.example.demo.service.SortServiceAdapter;
+import com.example.demo.domain.sort.SortObject;
+import com.example.demo.service.sort.SortService;
+import com.example.demo.service.sort.SortServiceAdapter;
 import com.google.common.primitives.Ints;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
-import javax.xml.ws.http.HTTPException;
 import java.util.List;
 import java.util.Optional;
 

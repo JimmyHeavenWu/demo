@@ -43,6 +43,9 @@ dependencies {
 
   //h2 database dependencies
   compile('com.h2database:h2')
+  /*
+    support crudRepository
+   */
   compile("org.springframework.boot:spring-boot-starter-data-jpa")
 
   compile('com.google.guava:guava')

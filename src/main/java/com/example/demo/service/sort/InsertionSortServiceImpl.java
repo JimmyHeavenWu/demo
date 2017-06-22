@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.example.demo.service.sort;
 
 import org.springframework.stereotype.Service;
 
@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
  * Created by Jimmy on 2017/6/20.
  */
 @Service
-public class InsertionSortServiceImp implements SortService {
+public class InsertionSortServiceImpl implements SortService {
 
     private final String type = "InsertionSort";
 
