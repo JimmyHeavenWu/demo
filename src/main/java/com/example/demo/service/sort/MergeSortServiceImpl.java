@@ -12,9 +12,10 @@ public class MergeSortServiceImpl implements SortService {
 
     private final String type = "mergeSort";
 
+
     @Override
-    public boolean canDo(String type) {
-        return type.equalsIgnoreCase(this.type);
+    public String getSortAlgorithmName() {
+        return this.type;
     }
 
     @Override

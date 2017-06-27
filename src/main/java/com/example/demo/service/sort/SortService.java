@@ -6,7 +6,7 @@ package com.example.demo.service.sort;
  */
 public interface SortService {
 
-    boolean canDo(String type);
+    String getSortAlgorithmName();
 
     int[] sortNumbers(int[] unsortedList);
 
