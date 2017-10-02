@@ -5,8 +5,8 @@ package com.example.demo.classLoader;
  */
 public class TestMain {
     public static void main(String[] args){
-//        new Dog(5);
-        Air air = Dog.air;
+        new Dog(5);
+//        Air air = Dog.air;
 //        Dog[] dogs = new Dog[5];
 //        Air[] airs = new Air[5];
     }

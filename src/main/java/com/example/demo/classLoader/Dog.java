@@ -15,7 +15,7 @@ public class Dog extends Animal {
     }
 
     public Dog(int age) {
-        super(age);
+//        super(age);
         System.out.println("Dog start");
         eat();
         System.out.println("Dog end");

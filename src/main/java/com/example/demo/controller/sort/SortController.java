@@ -49,5 +49,4 @@ public class SortController {
         return sortServiceContext.getAllSupportedMethod();
     }
 
-
 }

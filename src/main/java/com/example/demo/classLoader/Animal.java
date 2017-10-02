@@ -12,6 +12,10 @@ public abstract class Animal {
         System.out.println("Animal non-static block");
     }
 
+    public Animal(){
+
+    }
+
     public Animal(int age){
         System.out.println("Animal start");
         this.age = age;
